@@ -12,7 +12,7 @@ path = "src/lib.rs"
 uuid = { version = "0.8", features = ["serde", "v4"] }
 chrono = { version = "0.4", features = ["serde"] }
 argon2rs = "0.2"
-rocket = "0.4"
+rocket = "0.5"
 diesel = { version = "1.4", features = ["postgres", "uuidv07", "chrono", "serde_json"] }
 dotenv = "0.15"
 serde = "1"
